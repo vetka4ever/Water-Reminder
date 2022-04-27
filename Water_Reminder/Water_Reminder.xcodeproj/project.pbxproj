@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F33F16BC2818FFC8007BFD9A /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F16BB2818FFC8007BFD9A /* LocalNotificationManager.swift */; };
+		F33F16BE281927B3007BFD9A /* SettingNotificationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F16BD281927B3007BFD9A /* SettingNotificationPresenter.swift */; };
+		F3656D6028053371001FF375 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3656D5F28053371001FF375 /* TitleView.swift */; };
+		F3666510280BF7940094931D /* SettingTimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F366650F280BF7940094931D /* SettingTimePresenter.swift */; };
+		F3666512280C08480094931D /* SettingDailyGoalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3666511280C08480094931D /* SettingDailyGoalPresenter.swift */; };
+		F3666514280C0DA70094931D /* SettingCupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3666513280C0DA70094931D /* SettingCupPresenter.swift */; };
+		F3666516280C0EF80094931D /* SettingGlassPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3666515280C0EF80094931D /* SettingGlassPresenter.swift */; };
+		F3724867280830E300CC2573 /* SettingTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3724866280830E300CC2573 /* SettingTimeView.swift */; };
+		F3A10FCD28071C4E004E5404 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A10FCC28071C4E004E5404 /* SettingView.swift */; };
+		F3A10FD128071E78004E5404 /* SettingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A10FD028071E78004E5404 /* SettingPresenter.swift */; };
+		F3AF59DF28101A8100A1491C /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF59DE28101A8100A1491C /* MainPresenter.swift */; };
+		F3DCF652280AC496000C14CA /* SettingDailyGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF651280AC496000C14CA /* SettingDailyGoalView.swift */; };
+		F3DCF654280AC4A6000C14CA /* SettingCupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF653280AC4A6000C14CA /* SettingCupView.swift */; };
+		F3DCF656280AC4B1000C14CA /* SettingGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF655280AC4B1000C14CA /* SettingGlassView.swift */; };
+		F3DCF658280AC4BF000C14CA /* SettingNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF657280AC4BF000C14CA /* SettingNotificationView.swift */; };
+		F3E189BF28047380002D179E /* Water_ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E189BE28047380002D179E /* Water_ReminderApp.swift */; };
+		F3E189C328047381002D179E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E189C228047381002D179E /* Assets.xcassets */; };
+		F3E189C628047381002D179E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E189C528047381002D179E /* Preview Assets.xcassets */; };
+		F3ED362128170C980093B6F9 /* HowMuchWaterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ED362028170C980093B6F9 /* HowMuchWaterPresenter.swift */; };
+		F3ED3623281710BE0093B6F9 /* WakeUpTimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ED3622281710BE0093B6F9 /* WakeUpTimePresenter.swift */; };
+		F3ED3625281713140093B6F9 /* RemaindMePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ED3624281713140093B6F9 /* RemaindMePresenter.swift */; };
+		F3F775B82806919000D5A561 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F775B72806919000D5A561 /* MainView.swift */; };
+		F3FC5EB52805EF4400FD3D15 /* NotifyYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC5EB42805EF4400FD3D15 /* NotifyYouView.swift */; };
+		F3FC5EB72805EFF700FD3D15 /* HowMuchWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC5EB62805EFF700FD3D15 /* HowMuchWaterView.swift */; };
+		F3FC5EBA2805F15600FD3D15 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC5EB92805F15600FD3D15 /* LocalStorage.swift */; };
+		F3FC5EBC2805F48100FD3D15 /* WakeUpTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC5EBB2805F48100FD3D15 /* WakeUpTimeView.swift */; };
+		F3FC5EC12805F97E00FD3D15 /* RemaindMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC5EC02805F97E00FD3D15 /* RemaindMeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F33F16BB2818FFC8007BFD9A /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		F33F16BD281927B3007BFD9A /* SettingNotificationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingNotificationPresenter.swift; sourceTree = "<group>"; };
+		F3656D5F28053371001FF375 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		F366650F280BF7940094931D /* SettingTimePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTimePresenter.swift; sourceTree = "<group>"; };
+		F3666511280C08480094931D /* SettingDailyGoalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDailyGoalPresenter.swift; sourceTree = "<group>"; };
+		F3666513280C0DA70094931D /* SettingCupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCupPresenter.swift; sourceTree = "<group>"; };
+		F3666515280C0EF80094931D /* SettingGlassPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingGlassPresenter.swift; sourceTree = "<group>"; };
+		F3724866280830E300CC2573 /* SettingTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTimeView.swift; sourceTree = "<group>"; };
+		F3A10FCC28071C4E004E5404 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		F3A10FD028071E78004E5404 /* SettingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPresenter.swift; sourceTree = "<group>"; };
+		F3AF59DE28101A8100A1491C /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		F3DCF651280AC496000C14CA /* SettingDailyGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDailyGoalView.swift; sourceTree = "<group>"; };
+		F3DCF653280AC4A6000C14CA /* SettingCupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCupView.swift; sourceTree = "<group>"; };
+		F3DCF655280AC4B1000C14CA /* SettingGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingGlassView.swift; sourceTree = "<group>"; };
+		F3DCF657280AC4BF000C14CA /* SettingNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingNotificationView.swift; sourceTree = "<group>"; };
+		F3E189BB28047380002D179E /* Water_Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water_Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E189BE28047380002D179E /* Water_ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_ReminderApp.swift; sourceTree = "<group>"; };
+		F3E189C228047381002D179E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E189C528047381002D179E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3ED362028170C980093B6F9 /* HowMuchWaterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowMuchWaterPresenter.swift; sourceTree = "<group>"; };
+		F3ED3622281710BE0093B6F9 /* WakeUpTimePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimePresenter.swift; sourceTree = "<group>"; };
+		F3ED3624281713140093B6F9 /* RemaindMePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindMePresenter.swift; sourceTree = "<group>"; };
+		F3F775B72806919000D5A561 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F3FC5EB42805EF4400FD3D15 /* NotifyYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyYouView.swift; sourceTree = "<group>"; };
+		F3FC5EB62805EFF700FD3D15 /* HowMuchWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowMuchWaterView.swift; sourceTree = "<group>"; };
+		F3FC5EB92805F15600FD3D15 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		F3FC5EBB2805F48100FD3D15 /* WakeUpTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeView.swift; sourceTree = "<group>"; };
+		F3FC5EC02805F97E00FD3D15 /* RemaindMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindMeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E189B828047380002D179E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F33F16BA2818FFAA007BFD9A /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC5EB92805F15600FD3D15 /* LocalStorage.swift */,
+				F33F16BB2818FFC8007BFD9A /* LocalNotificationManager.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		F33F16BF281927BB007BFD9A /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				F3DCF657280AC4BF000C14CA /* SettingNotificationView.swift */,
+				F33F16BD281927B3007BFD9A /* SettingNotificationPresenter.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		F366650B280BF7530094931D /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				F3724866280830E300CC2573 /* SettingTimeView.swift */,
+				F366650F280BF7940094931D /* SettingTimePresenter.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		F366650C280BF75C0094931D /* DailyGoal */ = {
+			isa = PBXGroup;
+			children = (
+				F3DCF651280AC496000C14CA /* SettingDailyGoalView.swift */,
+				F3666511280C08480094931D /* SettingDailyGoalPresenter.swift */,
+			);
+			path = DailyGoal;
+			sourceTree = "<group>";
+		};
+		F366650D280BF7630094931D /* Cup */ = {
+			isa = PBXGroup;
+			children = (
+				F3DCF653280AC4A6000C14CA /* SettingCupView.swift */,
+				F3666513280C0DA70094931D /* SettingCupPresenter.swift */,
+			);
+			path = Cup;
+			sourceTree = "<group>";
+		};
+		F366650E280BF76D0094931D /* Glass */ = {
+			isa = PBXGroup;
+			children = (
+				F3DCF655280AC4B1000C14CA /* SettingGlassView.swift */,
+				F3666515280C0EF80094931D /* SettingGlassPresenter.swift */,
+			);
+			path = Glass;
+			sourceTree = "<group>";
+		};
+		F3A10FCE28071C57004E5404 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F3A10FCC28071C4E004E5404 /* SettingView.swift */,
+				F3A10FD028071E78004E5404 /* SettingPresenter.swift */,
+				F3DCF659280AC4D7000C14CA /* SubSettingView */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		F3A10FCF28071C60004E5404 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F3F775B72806919000D5A561 /* MainView.swift */,
+				F3AF59DE28101A8100A1491C /* MainPresenter.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		F3DCF659280AC4D7000C14CA /* SubSettingView */ = {
+			isa = PBXGroup;
+			children = (
+				F366650B280BF7530094931D /* Time */,
+				F366650C280BF75C0094931D /* DailyGoal */,
+				F366650D280BF7630094931D /* Cup */,
+				F366650E280BF76D0094931D /* Glass */,
+				F33F16BF281927BB007BFD9A /* Notification */,
+			);
+			path = SubSettingView;
+			sourceTree = "<group>";
+		};
+		F3E189B228047380002D179E = {
+			isa = PBXGroup;
+			children = (
+				F3E189BD28047380002D179E /* Water_Reminder */,
+				F3E189BC28047380002D179E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E189BC28047380002D179E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E189BB28047380002D179E /* Water_Reminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E189BD28047380002D179E /* Water_Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				F3E189BE28047380002D179E /* Water_ReminderApp.swift */,
+				F33F16BA2818FFAA007BFD9A /* DataTypes */,
+				F3656D5F28053371001FF375 /* TitleView.swift */,
+				F3FC5EB42805EF4400FD3D15 /* NotifyYouView.swift */,
+				F3FC5EB82805F14500FD3D15 /* HowMuchWater */,
+				F3FC5EBD2805F4BB00FD3D15 /* WakeUpTime */,
+				F3FC5EC22805F99300FD3D15 /* RemaindMe */,
+				F3A10FCF28071C60004E5404 /* MainScreen */,
+				F3A10FCE28071C57004E5404 /* Setting */,
+				F3E189C228047381002D179E /* Assets.xcassets */,
+				F3E189C428047381002D179E /* Preview Content */,
+			);
+			path = Water_Reminder;
+			sourceTree = "<group>";
+		};
+		F3E189C428047381002D179E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3E189C528047381002D179E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3FC5EB82805F14500FD3D15 /* HowMuchWater */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC5EB62805EFF700FD3D15 /* HowMuchWaterView.swift */,
+				F3ED362028170C980093B6F9 /* HowMuchWaterPresenter.swift */,
+			);
+			path = HowMuchWater;
+			sourceTree = "<group>";
+		};
+		F3FC5EBD2805F4BB00FD3D15 /* WakeUpTime */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC5EBB2805F48100FD3D15 /* WakeUpTimeView.swift */,
+				F3ED3622281710BE0093B6F9 /* WakeUpTimePresenter.swift */,
+			);
+			path = WakeUpTime;
+			sourceTree = "<group>";
+		};
+		F3FC5EC22805F99300FD3D15 /* RemaindMe */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC5EC02805F97E00FD3D15 /* RemaindMeView.swift */,
+				F3ED3624281713140093B6F9 /* RemaindMePresenter.swift */,
+			);
+			path = RemaindMe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E189BA28047380002D179E /* Water_Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E189C928047381002D179E /* Build configuration list for PBXNativeTarget "Water_Reminder" */;
+			buildPhases = (
+				F3E189B728047380002D179E /* Sources */,
+				F3E189B828047380002D179E /* Frameworks */,
+				F3E189B928047380002D179E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Water_Reminder;
+			productName = Water_Reminder;
+			productReference = F3E189BB28047380002D179E /* Water_Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E189B328047380002D179E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F3E189BA28047380002D179E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F3E189B628047380002D179E /* Build configuration list for PBXProject "Water_Reminder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E189B228047380002D179E;
+			productRefGroup = F3E189BC28047380002D179E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E189BA28047380002D179E /* Water_Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E189B928047380002D179E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E189C628047381002D179E /* Preview Assets.xcassets in Resources */,
+				F3E189C328047381002D179E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E189B728047380002D179E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC5EBA2805F15600FD3D15 /* LocalStorage.swift in Sources */,
+				F3E189BF28047380002D179E /* Water_ReminderApp.swift in Sources */,
+				F3666516280C0EF80094931D /* SettingGlassPresenter.swift in Sources */,
+				F3656D6028053371001FF375 /* TitleView.swift in Sources */,
+				F3ED3623281710BE0093B6F9 /* WakeUpTimePresenter.swift in Sources */,
+				F3FC5EBC2805F48100FD3D15 /* WakeUpTimeView.swift in Sources */,
+				F33F16BE281927B3007BFD9A /* SettingNotificationPresenter.swift in Sources */,
+				F33F16BC2818FFC8007BFD9A /* LocalNotificationManager.swift in Sources */,
+				F3DCF654280AC4A6000C14CA /* SettingCupView.swift in Sources */,
+				F3DCF652280AC496000C14CA /* SettingDailyGoalView.swift in Sources */,
+				F3FC5EB72805EFF700FD3D15 /* HowMuchWaterView.swift in Sources */,
+				F3ED362128170C980093B6F9 /* HowMuchWaterPresenter.swift in Sources */,
+				F3666510280BF7940094931D /* SettingTimePresenter.swift in Sources */,
+				F3666514280C0DA70094931D /* SettingCupPresenter.swift in Sources */,
+				F3724867280830E300CC2573 /* SettingTimeView.swift in Sources */,
+				F3ED3625281713140093B6F9 /* RemaindMePresenter.swift in Sources */,
+				F3DCF658280AC4BF000C14CA /* SettingNotificationView.swift in Sources */,
+				F3666512280C08480094931D /* SettingDailyGoalPresenter.swift in Sources */,
+				F3FC5EC12805F97E00FD3D15 /* RemaindMeView.swift in Sources */,
+				F3DCF656280AC4B1000C14CA /* SettingGlassView.swift in Sources */,
+				F3F775B82806919000D5A561 /* MainView.swift in Sources */,
+				F3A10FD128071E78004E5404 /* SettingPresenter.swift in Sources */,
+				F3A10FCD28071C4E004E5404 /* SettingView.swift in Sources */,
+				F3AF59DF28101A8100A1491C /* MainPresenter.swift in Sources */,
+				F3FC5EB52805EF4400FD3D15 /* NotifyYouView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3E189C728047381002D179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3E189C828047381002D179E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E189CA28047381002D179E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Water_Reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = RBRFGT8CHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water-Reminder-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniil.Water-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E189CB28047381002D179E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Water_Reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = RBRFGT8CHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water-Reminder-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniil.Water-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E189B628047380002D179E /* Build configuration list for PBXProject "Water_Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E189C728047381002D179E /* Debug */,
+				F3E189C828047381002D179E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E189C928047381002D179E /* Build configuration list for PBXNativeTarget "Water_Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E189CA28047381002D179E /* Debug */,
+				F3E189CB28047381002D179E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E189B328047380002D179E /* Project object */;
+}
