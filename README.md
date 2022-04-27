@@ -11,4 +11,7 @@ In one way or another, i wanna write next 2 apps with help SwiftUI.
  - NavigationView
  - NavigationLink
  - Property Wrapper - it's really something unusual, interesting & scaring
- - Life cycle of View in SwiftUI - i don't like it, because 
+ - Life cycle of View in SwiftUI - i don't like it, because UIKit has more methods: willApper, didLoad, willDisappear & etc.
+ - For each
+ - Shapes
+ - ScrollView
